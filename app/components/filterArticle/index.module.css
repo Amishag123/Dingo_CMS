@@ -1,0 +1,93 @@
+.filtercontainer {
+    height: 90vh;
+    width: 27%;
+}
+
+.border {
+    width: 1px;
+    height: 91%;
+    background: #E4E6E7;
+}
+
+.alertText {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.alertText h1 {
+    color: #000;
+    font-family: Borna;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dateLabel {
+    color: #8F9093;
+    font-family: Borna;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 21px;
+}
+
+.datesFilter {
+    padding: 0px 33px;
+
+}
+.category{
+    margin-bottom: 20px;
+}
+.category label{
+    margin-bottom: 20px;
+}
+.category input {
+    width: 391px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5.1px;
+    border: 0.81px solid #E4E6E7;
+}
+
+.loginButton {
+    width: 393px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5.1px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 26px;
+    margin-left: 33px;
+}
+
+.loginButton span {
+    color: #E6E6E6;
+    font-family: Borna;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pickdates {
+    width: 391px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5.1px;
+    border: 0.81px solid #E4E6E7;
+    margin-bottom: 19px;
+
+}
+
+.inputBorder {
+    width: 455px;
+    height: 1px;
+    background: #E4E6E7;
+}

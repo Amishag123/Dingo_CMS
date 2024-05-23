@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import SignupAccount from "./components/signup";
+import AllArticleComponent from "./components/allarticle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {/* <SignupAccount/> */}
+        <AllArticleComponent />
+      </body>
     </html>
   );
 }
