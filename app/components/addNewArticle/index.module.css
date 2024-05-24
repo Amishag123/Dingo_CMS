@@ -5,6 +5,14 @@
     background: #FFF;
 }
 
+.movieImages img {
+    width: 400px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+}
+
 .addNewArticle {
     display: flex;
     justify-content: space-between;
@@ -44,7 +52,7 @@
 
 .checkArticlesDetails {
     width: 856px;
-    height: 100px;
+    height: 250px;
     flex-shrink: 0;
     border-radius: 20px;
     border: 0.81px solid #E4E6E7;

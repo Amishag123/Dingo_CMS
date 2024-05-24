@@ -5,7 +5,6 @@ const FilterArticle = () => {
     return (
         <>
             <div className={styles.border}></div>
-
             <div className={styles.filtercontainer}>
                 <div className={styles.datesFilter}>
                     <div className={styles.alertText}>
@@ -17,7 +16,7 @@ const FilterArticle = () => {
                     <input type='date' className={styles.pickdates} />
                 </div>
                 <div className={styles.inputBorder}></div>
-
+                
                 <div className={styles.datesFilter}>
                     <div className={styles.alertText}>
                         <h1>Type</h1>
@@ -31,11 +30,6 @@ const FilterArticle = () => {
                         <label>Keywords</label>
                         <input placeholder='Embrace Limitless Cloud Storage' />
                     </div>
-
-
-                    {/* <div className={styles.dateLabel}>Create Date (from & to)</div>
-                    <input type='date' className={styles.pickdates} />
-                    <input type='date' className={styles.pickdates} /> */}
                 </div>
                 <div className={styles.inputBorder}></div>
                 <button className={styles.loginButton}>
@@ -43,8 +37,6 @@ const FilterArticle = () => {
                     <span>Search</span>
                 </button>
             </div>
-
-
         </>
     )
 }
