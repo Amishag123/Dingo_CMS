@@ -8,12 +8,13 @@ import SideBar from '../sidebarMenu'
 const AllArticleComponent = () => {
   return (
     <>
-      <Header />
+    <Header />
       <div className={styles.articleComponentContainer}>
         <SideBar />
         <AddNewArticle />
         <FilterArticle />
       </div>
+   
     </>
   )
 }

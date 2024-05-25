@@ -1,5 +1,64 @@
-.sidebarcomponent{
+.sidebarcomponent {
     height: 100vh;
-    width: 30%;
-    background-color: red;
+    width: 20%;
+}
+
+.listMenu {
+    padding: 27px 30px;
+    /* background-color: violet; */
+
+}
+.border {
+    width: 1px;
+    height: 91%;
+    background: #E4E6E7;
+    /* background-color: red; */
+}
+
+.subMenuContainer {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.verticalLine {
+    width: 2px;
+    background-color: #e0e0e0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.pagesMenu {
+    width: 259px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #E4E6E7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+
+
+}
+
+.articleMenu {
+    flex-grow: 1;
+    margin-left: 15px;
+
+}
+
+.menuItem {
+    padding-bottom: 10px;
 }

@@ -1,6 +1,42 @@
 .filtercontainer {
     height: 90vh;
-    width: 27%;
+    width: 25%;
+}
+.inputWithIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.inputWithIcon input {
+    flex-grow: 1;
+    padding-right: 30px; 
+}
+
+.dropdownIcon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+
+.dropdown {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.dropdownItem {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdownItem:hover {
+    background-color: #f0f0f0;
 }
 
 .border {
@@ -39,14 +75,17 @@
     padding: 0px 33px;
 
 }
-.category{
+
+.category {
     margin-bottom: 20px;
 }
-.category label{
+
+.category label {
     margin-bottom: 20px;
 }
+
 .category input {
-    width: 391px;
+    width: 350px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 5.1px;
@@ -54,7 +93,7 @@
 }
 
 .loginButton {
-    width: 393px;
+    width: 350px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 5.1px;
@@ -77,17 +116,17 @@
 }
 
 .pickdates {
-    width: 391px;
+    width: 350px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 5.1px;
     border: 0.81px solid #E4E6E7;
     margin-bottom: 19px;
-
+    padding: 0px 20px;
 }
 
 .inputBorder {
-    width: 455px;
+    width: 420px;
     height: 1px;
     background: #E4E6E7;
 }
